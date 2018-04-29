@@ -1,0 +1,10 @@
+/Users/jim/Sites/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.deps.json
+/Users/jim/Sites/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.runtimeconfig.json
+/Users/jim/Sites/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.runtimeconfig.dev.json
+/Users/jim/Sites/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.dll
+/Users/jim/Sites/aspnetcoreapp/bin/Debug/netcoreapp2.0/aspnetcoreapp.pdb
+/Users/jim/Sites/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.csproj.CoreCompileInputs.cache
+/Users/jim/Sites/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.AssemblyInfoInputs.cache
+/Users/jim/Sites/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.AssemblyInfo.cs
+/Users/jim/Sites/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.dll
+/Users/jim/Sites/aspnetcoreapp/obj/Debug/netcoreapp2.0/aspnetcoreapp.pdb

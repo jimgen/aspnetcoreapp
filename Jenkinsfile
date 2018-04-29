@@ -1,15 +1,10 @@
 pipeline {
-  agent {
-    dockerfile {
-      filename 'Dockerfile'
+    agent { dockerfile true }
+    stages {
+        stage('Test') {
+            steps {
+                sh 'node --version'
+            }
+        }
     }
-    
-  }
-  stages {
-    stage('test') {
-      steps {
-        sh 'echo "toto"'
-      }
-    }
-  }
 }

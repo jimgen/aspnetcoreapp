@@ -1,7 +1,7 @@
 pipeline {
-    agent { dockerfile true }
     stages {
         stage('Unit Tests') {
+        	agent { dockerfile true }
             steps {
                 sh 'echo "toto"'
             }

@@ -1,48 +1,44 @@
 pipeline {
-    agent {
-        docker {
-            image 'ubuntu:latest'
-        }
-    }
+    agent { dockerfile true }
     stages {
         stage('Unit Tests') {
             steps {
-                sh 'echo "toto"'
+                powershell 'Write-Output "Hello, World!"'
             }
         }
         stage('Functional Tests') {
             steps {
-                sh 'echo "toto"'
+                powershell 'Write-Output "Hello, World!"'
             }
         }
         stage('Acceptance Tests') {
             steps {
-                sh 'echo "toto"'
+                powershell 'Write-Output "Hello, World!"'
             }
         }
         stage('UI Tests') {
             steps {
-                sh 'echo "toto"'
+                powershell 'Write-Output "Hello, World!"'
             }
         }
         stage('SonarQube') {
             steps {
-                sh 'echo "toto"'
+                powershell 'Write-Output "Hello, World!"'
             }
         }
         stage('Deployment in Preprod') {
             steps {
-                sh 'echo "toto"'
+                powershell 'Write-Output "Hello, World!"'
             }
         }
         stage('API Tests') {
             steps {
-                sh 'echo "toto"'
+                powershell 'Write-Output "Hello, World!"'
             }
         }
         stage('Release') {
             steps {
-                sh 'echo "toto"'
+                powershell 'Write-Output "Hello, World!"'
             }
         }
     }

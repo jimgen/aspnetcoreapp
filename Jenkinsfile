@@ -3,42 +3,42 @@ pipeline {
     stages {
         stage('Unit Tests') {
             steps {
-                bat 'echo Hello World'
+                sh 'echo "toto"'
             }
         }
         stage('Functional Tests') {
             steps {
-                bat 'echo Hello World'
+                sh 'echo "toto"'
             }
         }
         stage('Acceptance Tests') {
             steps {
-                bat 'echo Hello World'
+                sh 'echo "toto"'
             }
         }
         stage('UI Tests') {
             steps {
-                bat 'echo Hello World'
+                sh 'echo "toto"'
             }
         }
         stage('SonarQube') {
             steps {
-                bat 'echo Hello World'
+                sh 'echo "toto"'
             }
         }
         stage('Deployment in Preprod') {
             steps {
-                bat 'echo Hello World'
+                sh 'echo "toto"'
             }
         }
         stage('API Tests') {
             steps {
-                bat 'echo Hello World'
+                sh 'echo "toto"'
             }
         }
         stage('Release') {
             steps {
-                bat 'echo Hello World'
+                sh 'echo "toto"'
             }
         }
     }

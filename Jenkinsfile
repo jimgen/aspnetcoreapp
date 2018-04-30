@@ -1,8 +1,11 @@
 pipeline {
-    agent { dockerfile true }
+    agent {
+        docker {
+            image 'ubuntu:latest'
+        }
+    }
     stages {
         stage('Unit Tests') {
-            agent { dockerfile true }
             steps {
                 sh 'echo "toto"'
             }

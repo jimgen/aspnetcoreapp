@@ -3,58 +3,42 @@ pipeline {
     stages {
         stage('Unit Tests') {
             steps {
-                powershell '''
-                    Write-Output "Hello, World!"
-                '''
+                bat 'echo Hello World'
             }
         }
         stage('Functional Tests') {
             steps {
-                powershell '''
-                    Write-Output "Hello, World!"
-                '''
+                bat 'echo Hello World'
             }
         }
         stage('Acceptance Tests') {
             steps {
-                powershell '''
-                    Write-Output "Hello, World!"
-                '''
+                bat 'echo Hello World'
             }
         }
         stage('UI Tests') {
             steps {
-                powershell '''
-                    Write-Output "Hello, World!"
-                '''
+                bat 'echo Hello World'
             }
         }
         stage('SonarQube') {
             steps {
-                powershell '''
-                    Write-Output "Hello, World!"
-                '''
+                bat 'echo Hello World'
             }
         }
         stage('Deployment in Preprod') {
             steps {
-                powershell '''
-                    Write-Output "Hello, World!"
-                '''
+                bat 'echo Hello World'
             }
         }
         stage('API Tests') {
             steps {
-                powershell '''
-                    Write-Output "Hello, World!"
-                '''
+                bat 'echo Hello World'
             }
         }
         stage('Release') {
             steps {
-                powershell '''
-                    Write-Output "Hello, World!"
-                '''
+                bat 'echo Hello World'
             }
         }
     }
